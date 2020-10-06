@@ -96,3 +96,5 @@ vec3 random_unit_vector();
 vec3 reflect(const vec3& v, const vec3& n);
 
 vec3 refract(const vec3& uv, const vec3& n, double etai_over_etat);
+
+vec3 random_in_unit_disk();
