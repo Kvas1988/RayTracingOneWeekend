@@ -1,11 +1,11 @@
 #include "vec3.h"
 #include "rtweekend.h"
 
-inline vec3 vec3::random() { // static ???
+/*inline*/ vec3 vec3::random() { // static ???
     return vec3(random_double(), random_double(), random_double());
 }
 
-inline vec3 vec3::random(double min, double max) { // static ???
+/*inline*/ vec3 vec3::random(double min, double max) { // static ???
     return vec3(random_double(min, max), random_double(min, max), random_double(min, max));
 }
 

@@ -53,9 +53,9 @@ public:
         return e[0]*e[0] + e[1]*e[1] + e[2]*e[2];
     }
     
-    inline static vec3 random(); // static ???
+    /*inline*/ static vec3 random(); // static ???
     
-    inline static vec3 random(double min, double max);
+    /*inline*/ static vec3 random(double min, double max);
     
     double e[3];
 };
